@@ -18,7 +18,7 @@ function calculateLeavingTime() {
 
   // Add 8 hours and 30 minutes
   const leavingTime = new Date(
-    arrivalTime.getTime() + (8 * 60 + 30) * 60 * 1000
+    arrivalTime.getTime() + (8 * 60) * 60 * 1000
   );
 
   // Format leaving time as hh:mm AM/PM
